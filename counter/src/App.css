@@ -1,0 +1,38 @@
+.main-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.counter-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 25px;
+  border-radius: 10px;
+  opacity: 1;
+  box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.85), 25px 0 20px -20px rgba(0, 0, 0, 0.85), 0px 25px 20px -20px rgba(0, 0, 0, 0.85), -25px 0 20px -20px rgba(0, 0, 0, 0.85);
+}
+.buttons-container{
+  display: flex;
+  justify-content: space-between;
+}
+.Btn{
+  background: transparent;
+  color: #000;
+  border-radius: 5px;
+  padding: 10px;
+}
+.Btn::after{
+  color: red;
+}
+.orange{
+  color: orange;
+  font-size: 3rem;
+}
+.green{
+  color: green;
+  font-size: 3rem;
+}
